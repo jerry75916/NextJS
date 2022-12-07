@@ -8,8 +8,8 @@ import EventList from "@components/events/event-list";
 import Layout from "@components/layout/Layout";
 import axios from "axios";
 import { getAllEvent } from "../../util/util";
-import NewsletterRegistration from "../../components/input/newsletter-registration";
-import Notification from "../../components/notification/Notification";
+import NewsletterRegistration from "@components/input/newsletter-registration";
+import Notification from "@components/notification/Notification";
 import NotificationContext from "../../public/store/notification-context";
 
 export default function Home({ data }) {

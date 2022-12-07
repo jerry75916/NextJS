@@ -2,7 +2,7 @@ import {
   ConnectToDb,
   getAllDataFromDb,
   InsertoDb,
-} from "../../../components/helpers/db_utils";
+} from "@components/helpers/db_utils";
 import { MongoClient } from "mongodb";
 
 const handler = async (req, res) => {
