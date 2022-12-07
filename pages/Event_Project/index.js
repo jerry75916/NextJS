@@ -9,7 +9,7 @@ import Layout from "@components/layout/Layout";
 import axios from "axios";
 import { getAllEvent } from "../../util/util";
 import NewsletterRegistration from "@components/input/newsletter-registration";
-import Notification from "@components/notification/Notification";
+import Notification from "@components/notification/notification";
 import NotificationContext from "../../public/store/notification-context";
 
 export default function Home({ data }) {

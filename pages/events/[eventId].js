@@ -10,7 +10,7 @@ import EventLogistics from "@components/events/event-logistics";
 import EventContent from "@components/events/event-content";
 import { getEventById, getAllEvent } from "../../util/util";
 import Comments from "../../components/input/comments";
-import Notification from "../../components/notification/Notification";
+import Notification from "../../components/notification/notification";
 import NotificationContext from "../../public/store/notification-context";
 import { useContext } from "react";
 const EventDetailPage = ({ data }) => {
